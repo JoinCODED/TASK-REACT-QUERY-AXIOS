@@ -32,6 +32,6 @@ In this task, you are going to crate a form to add a new pet to the pets website
 | -------------- | -------- | ---------------------------------------------------------- | ----------------------- |
 | Fetch all pets | `GET`    | `https://pets-react-query-backen.herokuapp.com/pets`       |                         |
 | Fetch one pet  | `GET`    | `https://pets-react-query-backen.herokuapp.com/pets/${id}` |                         |
-| Create a pet   | `POST`   | `https://pets-react-query-backen.herokuapp.com/pets`       | `name`, `image`, `type` |
+| Create a pet   | `POST`   | `https://pets-react-query-backen.herokuapp.com/pets`       | `name`, `image`, `type`, `adopted` |
 | Update a pet   | `PUT`    | `https://pets-react-query-backen.herokuapp.com/pets/${id}` | `adopted`               |
 | Delete a pet   | `DELETE` | `https://pets-react-query-backen.herokuapp.com/pets/${id}` |                         |
