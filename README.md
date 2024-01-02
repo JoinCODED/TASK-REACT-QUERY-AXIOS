@@ -6,19 +6,21 @@ In this task, you are going to crate a form to add a new pet to the pets website
 
 - Fork and clone [this repository]() to your `Development` folder.
 - Install Axios npm install axios
+- Install ReactQuery 
+### Axios & ReactQuery Setup
+1. In index.js setup ReactQuery Hint (`https://tanstack.com/query/latest/docs/react/installation`)
 
-### Using Axios get pets
+### Using Axios & ReactQuery to get pets
 
 1. Create a folder called `api` in `src`.
 2. Create a file `pets.js`.
-3. In `api/pets.js` create a fetchPets function ( make sure to use : async , await, try and catch )
+3. In `api/pets.js` create a fetchPets function ( make sure to use : async , await)
 4. Import the function in `App.js`
-5. FetchRooms should be triggered once App is rendered (Hint: 'useEffect')
-6. Don't forget to setPets based on the response coming from the API
+5. FetchRooms should be triggered once App is rendered 
 
 ### Using Axios add a pet
 
-1. In `api/pets.js` create a createPet function ( make sure to use : async , await, try and catch )
+1. In `api/pets.js` create a createPet function ( make sure to use : async , await )
 2. Import the function where you need to create a pet
 3. Refresh the page to see the change
 
@@ -30,7 +32,9 @@ In this task, you are going to crate a form to add a new pet to the pets website
 
 | Title          | Method   | Endpoint                                                   | Data required           |
 | -------------- | -------- | ---------------------------------------------------------- | ----------------------- |
-| Fetch all pets | `GET`    | `https://pets-react-query-backen.herokuapp.com/pets`       |                         |
-| Fetch one pet  | `GET`    | `https://pets-react-query-backen.herokuapp.com/pets/${id}` |                         |
-| Create a pet   | `POST`   | `https://pets-react-query-backen.herokuapp.com/pets`       | `name`, `image`, `type`, `adopted` |
-| Delete a pet   | `DELETE` | `https://pets-react-query-backen.herokuapp.com/pets/${id}` |                         |
+| Fetch all pets | `GET`    | `https://coded-pets-api-crud.eapi.joincoded.com/pets`       |                         |
+| Fetch one pet  | `GET`    | `https://coded-pets-api-crud.eapi.joincoded.com/pets/${id}` |                         |
+| Create a pet   | `POST`   | `https://coded-pets-api-crud.eapi.joincoded.com/pets`       | `name`, `image`, `type`, `adopted` |
+| Delete a pet   | `DELETE` | `https://coded-pets-api-crud.eapi.joincoded.com/pets/${id}` |                         |
+
+
